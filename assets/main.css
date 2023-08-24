@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'xzxst';
+  src: url('http://server.tcmoo.com:3004/fonts/default.otf');
+}
+*{
+  box-sizing: border-box;
+}
+
+/*  全局变量 */
+:root {
+  /* 默认字体 */
+    --themeFontFamily: xzxst,楷体;
+    /* 默认从移动端开始最宽度 */
+    --mobileContentWidth:96%;
+    /* 用于全局加载满屏减去页尾高度 */
+    --pageFooterHeight:76px
+}
+
+
+#app{
+  font-family: xzxst,楷体;
+}
+/* body{
+
+
+} */
+@media (min-width: 0px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+.tox-notification{
+  display: none !important;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* ::-webkit-scrollbar-track {
+    background-color: rgba(16, 16, 20, 0.2);
+} */
+
+::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    background-image: linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.4) 50%,
+            rgba(255, 255, 255, 0.4) 75%,
+            transparent 75%,
+            transparent
+    );
+    border-radius: 1em;
+}
+
+.el-select-dropdown.el-popper ::-webkit-scrollbar {
+    display: none;
+}

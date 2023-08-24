@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: http://blogs.tcmoo.com/sitemap.xml

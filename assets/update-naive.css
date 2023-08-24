@@ -1,0 +1,11 @@
+
+@media (min-width: 0px) {
+  .n-modal-container .n-card{
+    width: 96%;
+  }
+}
+@media (min-width: 768px) {
+  .n-modal-container .n-card{
+    width: 50%;
+  }
+}

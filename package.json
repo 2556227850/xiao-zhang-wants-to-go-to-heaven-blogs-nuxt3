@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "nuxt": "3.0.0",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
+    "@tinymce/tinymce-vue": "^5.0.0",
+    "@vavt/md-editor-extension": "^3.0.0",
+    "dayjs": "^1.11.7",
+    "md-editor-v3": "^4.2.2",
+    "naive-ui": "^2.34.3"
+  }
+}
